@@ -12,10 +12,10 @@ function checkPassword(str) {
 function checkForm(e) {
   //e.preventDefault();  //to prevent form from submitting and refreshing the page
 
-  if (form.username.value == "") {
+  if (form.username.value == "") { //directly referring to "form" is better
     alert("Error: Username cannot be blank!");
-    form.username.focus();
-    return false;
+    form.username.focus(); //focuses on username field to facilitate input
+    return false; //false value means form can't be submitted
   }
   re = /^\w+$/; //\w is shorthand for 'any letter, number or the underscore character'.
   if (!re.test(form.username.value)) {
