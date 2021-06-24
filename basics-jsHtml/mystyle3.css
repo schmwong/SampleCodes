@@ -1,0 +1,19 @@
+h1 { color: red; font-size:28px;} 
+
+.tg  {border-collapse:collapse;border-color:#C44D58;border-spacing:0;}
+.tg td{background-color:#F9CDAD;border-color:#C44D58;border-style:solid;border-width:1px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#FE4365;border-color:#C44D58;border-style:solid;border-width:1px;color:#fdf6e3;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-mnhx{background-color:#fe0000;text-align:left;vertical-align:top}
+
+#div1
+{
+  background-color: azure;
+}
+
+#div2
+{
+  background-color: beige;
+}
